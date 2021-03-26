@@ -4,7 +4,6 @@ const styles = {
   height: '100vh',
   fontSize: 20
 }
-//Appel
 function Cancel({ history }) {
   useEffect(() => setTimeout(() => history.push('/cart'), 3000))
   return (

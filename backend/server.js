@@ -103,7 +103,7 @@ routes.post("/orders/add", jsonParser, function (req, res) {
     });
 });
 
-//stripe
+//stripe ok
 const stripe = require("stripe")(process.env.SECRET_KEY);
 const YOUR_DOMAIN = "http://localhost:3000";
 
